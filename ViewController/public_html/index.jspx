@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:f="http://java.sun.com/jsf/core"
+          xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <f:view>
+        <af:document title="index" id="d1">
+            <af:form id="f1">
+                <af:panelGridLayout id="pgl1">
+                    <af:gridRow height="100%" id="gr1">
+                        <af:gridCell width="100%" halign="stretch" valign="stretch" id="gc1">
+                            <!-- Content -->
+                            <af:panelGroupLayout id="pgl2">
+                                <af:button text="Generate doc" id="b1" action="#{viewScope.PoiBean.generateDoc}"/>
+                            </af:panelGroupLayout>
+                        </af:gridCell>
+                    </af:gridRow>
+                </af:panelGridLayout>
+            </af:form>
+        </af:document>
+    </f:view>
+</jsp:root>

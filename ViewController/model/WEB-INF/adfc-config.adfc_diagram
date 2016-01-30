@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">index.jspx</property>
+      <property
+         name="x">353.0</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>index.jspx&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="y">231.29883</property>
+      <property
+         name="page">/index.jspx</property>
+      <property
+         name="exceptionHandler">false</property>
+   </View>
+</SDM>

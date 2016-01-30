@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <view id="index.jspx">
+    <page>/index.jspx</page>
+  </view>
+  <managed-bean id="__1">
+    <managed-bean-name>PoiBean</managed-bean-name>
+    <managed-bean-class>view.PoiBean</managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+  </managed-bean>
+</adfc-config>
